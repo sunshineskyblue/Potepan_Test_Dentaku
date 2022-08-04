@@ -1,0 +1,104 @@
+body,div,p,ul,ol,li,dl,dt,dd,table,th,td,img,figure,h1,h2,h4,h5,h6,form,select,input {
+  margin:0;
+  padding:0
+}
+
+h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+table {
+  margin-top:40px;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;  
+  background-color:green;
+  border-spacing: 7px 7px;
+}
+
+
+.calculator-output {
+  background-color:white;
+  font-size:30px;
+  width:270px;
+  height:75px;
+  text-align: right;
+  padding-right: 5px;
+  letter-spacing: 1px;
+  border:0;
+}
+
+tbody{
+  font-size:15px;
+  background-color:green;
+  cursor: pointer;
+}
+
+
+tbody input {
+  width:78px; 
+  height:60px;
+  font-weight:bold;
+  border-radius: 10px;
+  background-color:whitesmoke;
+  font-size:30px;
+  border:none;
+  outline: none;
+}
+
+tbody input:hover{
+  background:rgb(208, 200, 200);
+}
+
+
+input.ac {
+  font-weight:bold;
+  width:165px; 
+  height:62px;
+}
+
+
+/* 三角形(左) */
+
+.delete{
+  position:relative;
+}
+
+.batsu {
+  display: inline-block;
+  padding:0px;
+  background-color:whitesmoke;
+  position:absolute;
+  top:-25px;
+  left:25px;
+  width: 38px;
+  height: 50px;
+}
+
+.batsu:before {
+  content:"";
+	width: 0;
+	height: 0;
+	border-top: 27px solid transparent;
+	border-bottom: 23px solid transparent;
+	border-left: 24px solid transparent;
+	border-right: 22px solid whitesmoke;
+  position:absolute;
+  padding:0px;
+  margin:0;
+  top:0px;
+  right:38px;
+  text-align: center;
+}
+
+.item-align {
+  display: inline-block;
+  position:absolute; 
+  top:12px;
+  left:12px;
+  font-weight:bold;
+  color:rgba(0, 0, 0, 0.752)
+}
